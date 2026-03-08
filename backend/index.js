@@ -15,7 +15,9 @@ const app = express();
 const PORT = process.env.PORT || 4000;
 
 dotenv.config();
-app.use(cors());
+app.use(cors({
+  origin: "https://food-hub-seven-mu.vercel.app"
+}));
 app.use(express.json());
 
 //bd connection
