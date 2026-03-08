@@ -17,7 +17,7 @@ export const CategoryProvider = ({ children }) => {
     return savedCart ? JSON.parse(savedCart) : {};
   });
 
-  const url = "https://foodhub-dpa9.onrender.com/api/food/list-food";
+  const url = "https://foodhub-dpa9.onrender.com";
 
   // FETCH FOOD
   useEffect(() => {
