@@ -17,7 +17,7 @@ export const CategoryProvider = ({ children }) => {
     return savedCart ? JSON.parse(savedCart) : {};
   });
 
-  const url = "http://localhost:2500";
+  const url = "https://your-backend-name.onrender.com";
 
   // FETCH FOOD
   useEffect(() => {
