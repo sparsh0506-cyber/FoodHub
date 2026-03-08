@@ -12,7 +12,8 @@ import orderRouter from "./routes/orderRoute.js";
 
 // middleware
 const app = express();
-const PORT = 2500;
+const PORT = process.env.PORT || 4000;
+
 dotenv.config();
 app.use(cors());
 app.use(express.json());
