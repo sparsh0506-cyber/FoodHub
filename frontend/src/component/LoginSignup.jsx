@@ -1,7 +1,7 @@
 import { useState } from "react";
 import axios from "axios";
  
-const API_URL = "http://localhost:2500/api/user";
+const API_URL = "https://foodhub-dpa9.onrender.com/api/user";
  
 export default function LoginSignup({ open, mode, close, setMode }) {
   const isSignup = mode === "signup";
